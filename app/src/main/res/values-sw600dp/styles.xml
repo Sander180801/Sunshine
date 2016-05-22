@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:colorPrimary">@color/sunshine_blue</item>
+        <item name="android:colorPrimaryDark">@color/sunshine_dark_blue</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="ForecastTheme" parent="AppTheme">
+        <item name="android:actionBarStyle">@style/ActionBar.Solid.Sunshine.NoTitle</item>
+    </style>
+    <style name="ActionBar.Solid.Sunshine.NoTitle" parent="Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:displayOptions">useLogo|showHome</item>
+        <item name="android:logo">@drawable/ic_logo</item>
+
+    </style>
+    <color name="grey">#cccccc</color>
+    <color name="sunshine_light_blue">#ff64c2f4</color>
+    <color name="sunshine_blue">#ff1ca8f4</color>
+    <color name="sunshine_dark_blue">#0288D1</color>
+    <style name="ListStyle">
+        <item name="android:choiceMode">singleChoice</item>
+    </style>
+
+</resources>
